@@ -10,7 +10,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import telran.imagga.dto.ResponseDto;
 
 public class ImaggaTagAppl {
-	final static String TOKEN = "Basic YWNjX2MzY2Y2YWNhOTMwMGViMzo2MGQ4NTdhMmY3ODg0NGM4ZTMxNTM4MDYwYjhjZmFmMg==";
+	final static String TOKEN = "Basic <token>";
 	static RestTemplate restTemplate = new RestTemplate();
 
 	public static void main(String[] args) {
